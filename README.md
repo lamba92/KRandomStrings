@@ -55,6 +55,7 @@ repositories {
 dependencies {
     implementation("com.github.lamba92.krandomstrings", "KRandomStrings{-platform}", "{latest_version}")
 }
+```
 
 The `platform` placeholder should be replaced with:
  - `-jvm`
