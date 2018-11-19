@@ -4,6 +4,14 @@ Common code library of extension functions for `kotlin.random.Random` object add
 
 Written in Kotlin with ❤️.
 
+#### Platforms available:
+ - JVM
+ - JS
+ - Linux
+ - Android
+ 
+Jitpack cannot build for MacOS or Windows so for now that's it folks.
+
 ## Usage
 
 Just call what you need:
