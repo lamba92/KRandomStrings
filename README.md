@@ -57,11 +57,11 @@ dependencies {
 }
 ```
 
-The `platform` placeholder should be replaced with:
+The `-platform` placeholder should be replaced with:
  - `-jvm`
  - `-js`
  - `-android_native_32`
- - `android_native_64`
+ - `-android_native_64`
  - `-linuxx86_64`
  
 Leave it empty for common sources in common library.
