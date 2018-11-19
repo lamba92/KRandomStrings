@@ -42,7 +42,7 @@ Then import the latest version in the `build.gradle` of the modules you need:
 
 ```
 dependencies {
-    implementation 'com.github.lamba92:krandomstrings:{latest_version}'
+    implementation 'com.github.lamba92.krandomstrings:KRandomStrings{-platform}:{latest_version}'
 }
 ```
 
@@ -53,6 +53,14 @@ repositories {
 }
 ...
 dependencies {
-    implementation("com.github.lamba92", "krandomstrings", "{latest_version}")
+    implementation("com.github.lamba92.krandomstrings", "KRandomStrings{-platform}", "{latest_version}")
 }
 
+The `platform` placeholder should be replaced with:
+ - `-jvm`
+ - `-js`
+ - `-android_native_32`
+ - `android_native_64`
+ - `-linuxx86_64`
+ 
+Leave it empty for common sources in common library.
