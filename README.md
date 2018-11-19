@@ -13,7 +13,7 @@ val uuid: String = Random.uuid()
 // 478b9e1c-a428-48e3-9f1f-af14e4deffcb
 
 val alhpanum: String = Random.nextAlphanumericString()
-// dn0-2\]2'f2023l]%
+// abcdefghijk1234
 
 val char: Char = Random.nextChar()
 ```
