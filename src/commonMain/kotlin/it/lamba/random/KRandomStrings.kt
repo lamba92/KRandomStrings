@@ -98,7 +98,7 @@ fun Random.nextNumericChar(from: Int = 0, to: Int = 9): Char {
  * @return The randomly generated character.
  */
 fun Random.nextLowercaseLetter(from: Int = 0, to: Int = 26): Char{
-    if(from < 0 || from > 25 || to < 2 || to > 26)
+    if(from < 0 || from > 25 || to < 1 || to > 26)
         throw IllegalArgumentException("Invalid parameters. Select Ranges from 0 included to 26 included")
     return nextInt(97 + from, 123 - (26 - to)).toChar()
 }
@@ -110,7 +110,7 @@ fun Random.nextLowercaseLetter(from: Int = 0, to: Int = 26): Char{
  * @return The randomly generated character.
  */
 fun Random.nextUppercaseLetter(from: Int = 0, to: Int = 26): Char {
-    if(from < 0 || from > 26 || to < 2 || to > 26)
+    if(from < 0 || from > 26 || to < 1 || to > 26)
         throw IllegalArgumentException("Invalid parameters. Select Ranges from 0 included to 26 included")
     return nextInt(65 + from, 91 - (26 - to)).toChar()
 }
