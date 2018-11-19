@@ -26,7 +26,7 @@ val alhpanum: String = Random.nextAlphanumericString()
 val char: Char = Random.nextChar()
 ```
 
-Check the here for other functions.
+Check the [here](https://github.com/lamba92/KRandomStrings/blob/master/src/commonMain/kotlin/it/lamba/random/KRandomStrings.kt) for other functions.
 
 
 ## Installing [![](https://jitpack.io/v/lamba92/krandomstrings.svg)](https://jitpack.io/#lamba92/krandomstrings)
